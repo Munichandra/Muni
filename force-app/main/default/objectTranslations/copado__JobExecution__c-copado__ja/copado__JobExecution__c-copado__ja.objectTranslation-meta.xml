@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ジョブ実行</value>
+    </caseValues>
+    <fieldSets>
+        <label>データセットジョブの実行</label>
+        <name>copado__Data_Set_Job_Executions</name>
+    </fieldSets>
+    <fieldSets>
+        <label>プロモーション・ジョブの実行</label>
+        <name>copado__Promotion_Job_Executions</name>
+    </fieldSets>
+    <layouts>
+        <layout>Job Execution Layout</layout>
+        <sections>
+            <label><!-- Execution Result --></label>
+            <section>Execution Result</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ジョブ実行名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>未完了ステップを実行</label>
+        <name>copado__Execute_Outstanding</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>実行を再開</label>
+        <name>copado__Restart_Execution</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>実行開始日</label>
+        <name>copado__StartExecution</name>
+    </quickActions>
+</CustomObjectTranslation>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パイプライン</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Additional Information --></label>
+        <name>copado__Additional_Information</name>
+    </fieldSets>
+    <layouts>
+        <layout>Pipeline Layout V.17</layout>
+        <sections>
+            <label>アドバンストオプション</label>
+            <section>Advanced Options</section>
+        </sections>
+        <sections>
+            <label>コパードDX.</label>
+            <section>Copado DX</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>パイプライン名</nameFieldLabel>
+    <quickActions>
+        <label><!-- Create System Properties --></label>
+        <name>cmcMule__Create_System_Properties</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Migrate to Source Format --></label>
+        <name>cmcSf__Migrate_to_SFP</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Clone with Environments --></label>
+        <name>copado__Clone_with_Environments</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Performance Optimizations --></label>
+        <name>copado__Configure_prefetch_volume</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Exclude Completed Stories --></label>
+        <name>copado__Exclude_Completed_Stories</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Initialize --></label>
+        <name>copado__Initialise</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Pipeline Builder --></label>
+        <name>copado__Pipeline_Builder</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Pipeline Manager --></label>
+        <name>copado__Pipeline_Manager</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Setup Continuous Delivery --></label>
+        <name>copado__Setup_Continuous_Delivery</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Find_Replace_Rule_Editor --></label>
+        <name>copado__Find_Replace_Rule_Editor</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Branches --></label>
+        <name>copado__Manage_Branches</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Environment_Variables --></label>
+        <name>copado__Manage_Environment_Variables</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Regression_Tests --></label>
+        <name>copado__Manage_Regression_Tests</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Pipeline_Wizard --></label>
+        <name>copado__Pipeline_Wizard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Select_Main_Branch --></label>
+        <name>copado__Select_Main_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Copado Object associated with this Prompt. Read the documentation to know which Objects are supported --></help>
+    <label><!-- Object --></label>
+    <name>copadoAiHelper__Object__c</name>
+</CustomFieldTranslation>

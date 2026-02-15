@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Copado AI Companion Prompt</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Copado AI Companion Prompts</value>
+    </caseValues>
+    <layouts>
+        <layout>Copado AI Companion Prompt Layout</layout>
+        <sections>
+            <label><!-- Prompt context information --></label>
+            <section>Prompt context information</section>
+        </sections>
+        <sections>
+            <label><!-- Prompt/Question information --></label>
+            <section>Prompt/Question information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

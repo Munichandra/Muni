@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パイプラインアクション</value>
+    </caseValues>
+    <layouts>
+        <layout>Pipeline Action Layout</layout>
+        <sections>
+            <label><!-- Environment Override --></label>
+            <section>Environment Override</section>
+        </sections>
+        <sections>
+            <label><!-- Pipeline --></label>
+            <section>Pipeline</section>
+        </sections>
+        <sections>
+            <label><!-- Settings --></label>
+            <section>Settings</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>パイプライン・アクション名</nameFieldLabel>
+</CustomObjectTranslation>

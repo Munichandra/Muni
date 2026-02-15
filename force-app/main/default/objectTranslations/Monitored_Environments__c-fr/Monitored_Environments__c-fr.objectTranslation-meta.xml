@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Monitored Environment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Monitored Environments</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <quickActions>
+        <label><!-- Run Scan --></label>
+        <name>Run_Scan</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please run a successful Manual Scan before adding to the monitoring schedule. --></errorMessage>
+        <name>Ensure_a_Successful_Manual_Run</name>
+    </validationRules>
+</CustomObjectTranslation>

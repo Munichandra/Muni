@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>コパード統合</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- ConnectionDetailFieldSet --></label>
+        <name>copadoconnect__ConnectionDetailFieldSet</name>
+    </fieldSets>
+    <nameFieldLabel>接続名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>有効化</label>
+        <name>copadoconnect__Activate</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>新しいマッピングの作成</label>
+        <name>copadoconnect__Add_Mapping</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>クローン</label>
+        <name>copadoconnect__Clone</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>無効化</label>
+        <name>copadoconnect__Deactivate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Resync --></label>
+        <name>copadoconnect__Resync</name>
+    </quickActions>
+</CustomObjectTranslation>

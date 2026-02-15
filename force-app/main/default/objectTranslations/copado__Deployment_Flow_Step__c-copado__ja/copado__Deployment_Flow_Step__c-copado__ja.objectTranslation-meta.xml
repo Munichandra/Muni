@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パイプライン接続</value>
+    </caseValues>
+    <layouts>
+        <layout>Deployment Flow Step Layout</layout>
+        <sections>
+            <label><!-- Fields Updated By Copado --></label>
+            <section>Fields Updated By Copado</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>パイプライン接続リファレンス</nameFieldLabel>
+    <validationRules>
+        <errorMessage>パイプラインのプラットフォームと環境が一致する必要があります。</errorMessage>
+        <name>copado__EnvironmentAndPipelinePlatformMustBeSame</name>
+    </validationRules>
+    <webLinks>
+        <label>ブランチを選択</label>
+        <name>copado__Select_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>

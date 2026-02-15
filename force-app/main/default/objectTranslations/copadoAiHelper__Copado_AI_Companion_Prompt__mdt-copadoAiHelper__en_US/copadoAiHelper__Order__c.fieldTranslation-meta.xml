@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Optional. Order in which the Questions will appear. If not set, or the number is duplicated, they will be shown by last modified date, newer first. --></help>
+    <label><!-- Order --></label>
+    <name>copadoAiHelper__Order__c</name>
+</CustomFieldTranslation>

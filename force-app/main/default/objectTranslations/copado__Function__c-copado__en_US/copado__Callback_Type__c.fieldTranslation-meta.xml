@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Trigger a Flow or Apex class each time a function execution completes. This trigger happens when the function result status changes to Success or Failed. --></help>
+    <label><!-- Callback Type --></label>
+    <name>copado__Callback_Type__c</name>
+    <picklistValues>
+        <masterLabel>ApexClass</masterLabel>
+        <translation><!-- ApexClass --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flow</masterLabel>
+        <translation><!-- Flow --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

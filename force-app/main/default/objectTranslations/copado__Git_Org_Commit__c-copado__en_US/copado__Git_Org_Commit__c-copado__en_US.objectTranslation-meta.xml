@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Snapshot Commit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Snapshot Commits</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CBM Fields --></label>
+        <name>copado__CBM_Fields</name>
+    </fieldSets>
+    <layouts>
+        <layout>Git Org Commit Layout</layout>
+        <sections>
+            <label><!-- MetaData Selections --></label>
+            <section>MetaData Selections</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Snapshot Commit Layout</layout>
+        <sections>
+            <label><!-- MetaData Selections --></label>
+            <section>MetaData Selections</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The commit status cannot be &apos;Pending&apos; or &apos;No changes&apos; whenever there is a commit Id. --></errorMessage>
+        <name>copado__Commit_Id_Status_Complete</name>
+    </validationRules>
+</CustomObjectTranslation>

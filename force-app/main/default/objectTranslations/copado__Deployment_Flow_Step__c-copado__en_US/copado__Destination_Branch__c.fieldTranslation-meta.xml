@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Value is updated automatically by Copado. This is defined in the Pipeline Connection of the Destination Environment. --></help>
+    <label><!-- Destination Branch --></label>
+    <name>copado__Destination_Branch__c</name>
+</CustomFieldTranslation>

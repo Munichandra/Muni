@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- SCAルール --></value>
+    </caseValues>
+    <layouts>
+        <layout>SCA Rule Layout</layout>
+        <sections>
+            <label>ルールの構成</label>
+            <section>Rule Configuration</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Rule ID --></nameFieldLabel>
+</CustomObjectTranslation>

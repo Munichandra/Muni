@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Language of this Prompt, in the Salesforce&apos;s format &quot;en_US&quot;, &quot;en_UK&quot;. Empty Language will match for every user, regardless of its selected language. The end-user&apos;s language will be matched with the Prompt language. --></help>
+    <label><!-- Language --></label>
+    <name>copadoAiHelper__Language__c</name>
+</CustomFieldTranslation>

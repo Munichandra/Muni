@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- A text box to write the condition of rule violation. Displays the message when the rule is triggered.
+For ex. ‘Standard profile to have no access of customer’s PII fields’. -->
+    </help>
+    <label><!-- Error Message --></label>
+    <name>copadoQuality__Error_Message__c</name>
+</CustomFieldTranslation>

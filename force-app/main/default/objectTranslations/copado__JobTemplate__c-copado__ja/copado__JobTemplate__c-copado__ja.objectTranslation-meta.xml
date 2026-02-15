@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ジョブテンプレート</value>
+    </caseValues>
+    <nameFieldLabel>ジョブテンプレート名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>ステップを複製</label>
+        <name>copado__Clone_with_Steps</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>新しいステップ</label>
+        <name>copado__New_Step</name>
+    </quickActions>
+</CustomObjectTranslation>

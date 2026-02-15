@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>データセット</value>
+    </caseValues>
+    <layouts>
+        <layout>Data Set Layout</layout>
+        <sections>
+            <label><!-- Last File Generation --></label>
+            <section>Last File Generation</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>データセット名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>データセットをデプロイ</label>
+        <name>copado__Deploy_Data_Set</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>データセットのデプロイ</label>
+        <name>copado__Deploy_Data_Set_MC</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>データセットを生成</label>
+        <name>copado__Generate_Data_Set</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>データセットの生成</label>
+        <name>copado__Generate_Data_Set_MC</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>ファイルバージョンを削除</label>
+        <name>copado__Remove_File_Versions</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>データセットが作成されたら、データテンプレートを変更することはできません。新しいデータセットを作成してください。</errorMessage>
+        <name>copado__Prevent_change_Data_Template</name>
+    </validationRules>
+</CustomObjectTranslation>

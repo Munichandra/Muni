@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>copadovsm__Type__c</name>
+    <picklistValues>
+        <masterLabel>Metrics Visibility and Order</masterLabel>
+        <translation><!-- Metrics Visibility and Order --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Threshold</masterLabel>
+        <translation><!-- Threshold --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

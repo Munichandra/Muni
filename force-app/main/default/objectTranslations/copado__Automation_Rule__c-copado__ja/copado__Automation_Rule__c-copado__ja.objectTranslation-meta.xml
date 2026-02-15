@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>オートメーションルール</value>
+    </caseValues>
+    <layouts>
+        <layout>Automation Rule Layout</layout>
+        <sections>
+            <label><!-- Filter --></label>
+            <section>Filter</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>オートメーション・ルール名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>有効化</label>
+        <name>copado__Activate</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>有効化</label>
+        <name>copado__Activate1</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>非有効化</label>
+        <name>copado__Deactivate</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>無効化</label>
+        <name>copado__Deactivate1</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>削除</label>
+        <name>copado__Delete1</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>編集</label>
+        <name>copado__Edit1</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>同時に環境とステージ項目を選択することはできません。細かいフィルターは環境を用いて、より広いフィルターはステージにて定義してください。</errorMessage>
+        <name>copado__Stage_and_Environment_both_populated</name>
+    </validationRules>
+</CustomObjectTranslation>

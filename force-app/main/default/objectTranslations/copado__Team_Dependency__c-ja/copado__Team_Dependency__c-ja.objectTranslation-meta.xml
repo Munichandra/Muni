@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ユーザーストーリー依存関係</value>
+    </caseValues>
+    <layouts>
+        <layout>User Story Dependency Layout</layout>
+        <sections>
+            <label>成果物</label>
+            <section>Deliverable</section>
+        </sections>
+        <sections>
+            <label>ノート</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>チーム依存関係（オプション）</label>
+            <section>Team Dependency (Optional)</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ユーザーストーリー依存関係名</nameFieldLabel>
+</CustomObjectTranslation>

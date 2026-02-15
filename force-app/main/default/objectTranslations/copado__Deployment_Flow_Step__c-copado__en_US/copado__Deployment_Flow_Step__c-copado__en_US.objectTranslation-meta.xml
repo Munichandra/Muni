@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pipeline Connection</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pipeline Connections</value>
+    </caseValues>
+    <layouts>
+        <layout>Deployment Flow Step Layout</layout>
+        <sections>
+            <label><!-- Fields Updated By Copado --></label>
+            <section>Fields Updated By Copado</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Platform for pipeline and Environment must match --></errorMessage>
+        <name>copado__EnvironmentAndPipelinePlatformMustBeSame</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Select_Branch --></label>
+        <name>copado__Select_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Lead Time Threshold Type --></label>
+    <name>copadovsm__Lead_Time_Threshold_Type__c</name>
+    <picklistValues>
+        <masterLabel>Lower Threshold</masterLabel>
+        <translation><!-- Lower Threshold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upper Threshold</masterLabel>
+        <translation><!-- Upper Threshold --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

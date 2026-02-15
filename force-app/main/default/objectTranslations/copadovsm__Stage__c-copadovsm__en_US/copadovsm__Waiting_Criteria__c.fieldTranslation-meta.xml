@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Values that indicate work “to do” or “completed” should be considered “waiting”. These will be configured from the Primary Field that is selected on the VSM. --></help>
+    <label><!-- Waiting Criteria --></label>
+    <name>copadovsm__Waiting_Criteria__c</name>
+</CustomFieldTranslation>

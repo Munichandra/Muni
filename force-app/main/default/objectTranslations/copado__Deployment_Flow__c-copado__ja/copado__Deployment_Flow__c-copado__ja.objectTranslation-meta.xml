@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パイプライン</value>
+    </caseValues>
+    <fieldSets>
+        <label>追加情報</label>
+        <name>copado__Additional_Information</name>
+    </fieldSets>
+    <layouts>
+        <layout>Pipeline Layout V.17</layout>
+        <sections>
+            <label><!-- Advanced Options --></label>
+            <section>Advanced Options</section>
+        </sections>
+        <sections>
+            <label><!-- Copado DX --></label>
+            <section>Copado DX</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>パイプライン名</nameFieldLabel>
+    <quickActions>
+        <label><!-- Create System Properties --></label>
+        <name>cmcMule__Create_System_Properties</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Migrate to Source Format --></label>
+        <name>cmcSf__Migrate_to_SFP</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>環境での複製</label>
+        <name>copado__Clone_with_Environments</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>パフォーマンスの最適化</label>
+        <name>copado__Configure_prefetch_volume</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>完了したストーリーを除外</label>
+        <name>copado__Exclude_Completed_Stories</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>初期化</label>
+        <name>copado__Initialise</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>パイプラインビルダー</label>
+        <name>copado__Pipeline_Builder</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>パイプラインマネージャー</label>
+        <name>copado__Pipeline_Manager</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>継続的デリバリーをセットアップ</label>
+        <name>copado__Setup_Continuous_Delivery</name>
+    </quickActions>
+    <webLinks>
+        <label>ルールエディタの検索＆置換</label>
+        <name>copado__Find_Replace_Rule_Editor</name>
+    </webLinks>
+    <webLinks>
+        <label>リリースの管理</label>
+        <name>copado__Manage_Branches</name>
+    </webLinks>
+    <webLinks>
+        <label>環境変数の管理</label>
+        <name>copado__Manage_Environment_Variables</name>
+    </webLinks>
+    <webLinks>
+        <label>回帰テストを管理</label>
+        <name>copado__Manage_Regression_Tests</name>
+    </webLinks>
+    <webLinks>
+        <label>パイプラインウィザード</label>
+        <name>copado__Pipeline_Wizard</name>
+    </webLinks>
+    <webLinks>
+        <label>メインブランチを選択</label>
+        <name>copado__Select_Main_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>

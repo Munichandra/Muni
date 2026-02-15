@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Gitリポジトリ</value>
+    </caseValues>
+    <fieldSets>
+        <label>コパードヘッダーフィールド</label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>カスタムフィールド</label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <nameFieldLabel>Gitリポジトリ名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>認証をリセット</label>
+        <name>copado__Reset_Authentication</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>クラシックビューへの切り替え</label>
+        <name>copado__Switch_to_Classic_View</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Initialize_Salesforce_Project --></label>
+        <name>cmcSf__Initialize_Salesforce_Project</name>
+    </webLinks>
+</CustomObjectTranslation>

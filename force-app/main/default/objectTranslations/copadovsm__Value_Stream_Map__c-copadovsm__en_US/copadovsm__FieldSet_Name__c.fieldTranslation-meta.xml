@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- FieldSet Name is the name of the fieldset that you created on your primary object. It allows you to display additional columns on your VSM report page. --></help>
+    <label><!-- FieldSet Name --></label>
+    <name>copadovsm__FieldSet_Name__c</name>
+</CustomFieldTranslation>

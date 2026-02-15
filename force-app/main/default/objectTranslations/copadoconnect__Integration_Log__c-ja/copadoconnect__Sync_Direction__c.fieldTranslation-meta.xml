@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sync Direction --></label>
+    <name>copadoconnect__Sync_Direction__c</name>
+    <picklistValues>
+        <masterLabel>Copado &gt; Provider</masterLabel>
+        <translation>コパード &gt; プロバイダー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provider &gt; Copado</masterLabel>
+        <translation>プロバイダー &gt; コパード</translation>
+    </picklistValues>
+</CustomFieldTranslation>

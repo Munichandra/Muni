@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Data Set</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Data Sets</value>
+    </caseValues>
+    <layouts>
+        <layout>Data Set Layout</layout>
+        <sections>
+            <label><!-- Last File Generation --></label>
+            <section>Last File Generation</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Deploy Data Set --></label>
+        <name>copado__Deploy_Data_Set</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Deploy Data Set --></label>
+        <name>copado__Deploy_Data_Set_MC</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Data Set --></label>
+        <name>copado__Generate_Data_Set</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Data Set --></label>
+        <name>copado__Generate_Data_Set_MC</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Remove File Versions --></label>
+        <name>copado__Remove_File_Versions</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- It is not allowed to change the Data Template once the Data Set has been created. Please create a new Data Set. --></errorMessage>
+        <name>copado__Prevent_change_Data_Template</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field identifies the primary owner field related to your Primary object. This feeds into the Operator icons within the VSM which shows work distribution and also the Interactive icons to show who owns the work item records. --></help>
+    <label><!-- Operator Field --></label>
+    <name>copadovsm__Operator_Field__c</name>
+</CustomFieldTranslation>

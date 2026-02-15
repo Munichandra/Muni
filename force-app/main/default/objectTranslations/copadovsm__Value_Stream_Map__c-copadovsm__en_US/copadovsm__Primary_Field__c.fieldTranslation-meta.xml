@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Primary Field can be any field from the Primary Object associated with your VSM. The values from the Primary Field should define your business process for your Primary Object. The Primary Field will be utilized in the Configuration screen of the VSM. --></help>
+    <label><!-- Primary Field --></label>
+    <name>copadovsm__Primary_Field__c</name>
+</CustomFieldTranslation>

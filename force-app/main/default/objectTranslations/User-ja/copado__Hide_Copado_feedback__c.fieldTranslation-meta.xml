@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>AppExchangeでコパードの評価とフィードバックをユーザーに求めるメッセージの制限は、ここで制御されます。</help>
+    <label><!-- Hide Copado feedback --></label>
+    <name>copado__Hide_Copado_feedback__c</name>
+</CustomFieldTranslation>

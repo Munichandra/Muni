@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Upper limit of allocated execution time. If the process takes longer than this, it will be automatically terminated. --></help>
+    <label><!-- Timeout (minutes) --></label>
+    <name>copado__Timeout__c</name>
+</CustomFieldTranslation>

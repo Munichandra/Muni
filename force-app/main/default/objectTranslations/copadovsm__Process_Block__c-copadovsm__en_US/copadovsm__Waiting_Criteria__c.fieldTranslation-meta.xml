@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Process blocks inherits waiting criteria information from their parent Stage. --></help>
+    <label><!-- Waiting Criteria --></label>
+    <name>copadovsm__Waiting_Criteria__c</name>
+</CustomFieldTranslation>

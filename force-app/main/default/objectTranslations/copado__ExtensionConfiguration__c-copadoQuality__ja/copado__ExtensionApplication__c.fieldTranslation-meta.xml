@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the type of Copado Application that relates to the Extension. --></help>
+    <label><!-- Copado Phase --></label>
+    <name>copado__ExtensionApplication__c</name>
+    <picklistValues>
+        <masterLabel>Test</masterLabel>
+        <translation><!-- Test --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

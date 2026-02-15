@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>結果</value>
+    </caseValues>
+    <layouts>
+        <layout>Result Layout</layout>
+        <sections>
+            <label><!-- Execution Result --></label>
+            <section>Execution Result</section>
+        </sections>
+        <sections>
+            <label><!-- Execution Size --></label>
+            <section>Execution Size</section>
+        </sections>
+        <sections>
+            <label><!-- Execution Time --></label>
+            <section>Execution Time</section>
+        </sections>
+        <sections>
+            <label><!-- Functional Information --></label>
+            <section>Functional Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>結果名</nameFieldLabel>
+</CustomObjectTranslation>

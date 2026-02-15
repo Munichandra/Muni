@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ペルソナ’</value>
+    </caseValues>
+    <nameFieldLabel>ペルソナ名</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Standard persona definitions can not be modified. Please create a custom persona definition. --></errorMessage>
+        <name>copado__Restrict_Standard_Persona_Modification</name>
+    </validationRules>
+</CustomObjectTranslation>

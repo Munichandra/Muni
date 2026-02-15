@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Value Stream Map</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Value Stream Maps</value>
+    </caseValues>
+    <layouts>
+        <layout>Value Stream Map Layout</layout>
+        <sections>
+            <label><!-- Setup --></label>
+            <section>Setup</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Activate --></label>
+        <name>copadovsm__Activate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add New Metric --></label>
+        <name>copadovsm__Add_New_Metric</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Configure Metrics --></label>
+        <name>copadovsm__Configure_Metrics</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Configure VSM Thresholds --></label>
+        <name>copadovsm__Configure_Thresholds</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Deactivate --></label>
+        <name>copadovsm__Deactivate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Enable Snapshot --></label>
+        <name>copadovsm__Enable_Snapshot</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Generate Snapshot --></label>
+        <name>copadovsm__Generate_Snapshot</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Open Value Stream Map --></label>
+        <name>copadovsm__Open_Value_Stream_Map</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Recalculate --></label>
+        <name>copadovsm__Recalculate</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

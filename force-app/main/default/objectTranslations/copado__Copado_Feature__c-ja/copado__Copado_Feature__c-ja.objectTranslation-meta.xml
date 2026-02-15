@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Feature (deprecated) --></value>
+    </caseValues>
+    <layouts>
+        <layout>Feature Layout</layout>
+        <sections>
+            <label>所有者</label>
+            <section>Owners</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Feature Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Primary object that will be used for the Value Stream Map. Each VSM will have a primary object and primary field. --></help>
+    <label><!-- Object --></label>
+    <name>copadovsm__Object__c</name>
+</CustomFieldTranslation>

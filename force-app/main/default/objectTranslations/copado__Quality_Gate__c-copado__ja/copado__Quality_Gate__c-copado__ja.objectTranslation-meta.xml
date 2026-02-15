@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>オートメーション</value>
+    </caseValues>
+    <layouts>
+        <layout>Quality Gate Layout</layout>
+        <sections>
+            <label><!-- Apex Test Settings --></label>
+            <section>Apex Test Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Automation Details --></label>
+            <section>Automation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance Rule Settings --></label>
+            <section>Compliance Rule Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Manual Step Settings --></label>
+            <section>Manual Step Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Selenium Test Settings --></label>
+            <section>Selenium Test Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Static Code Analysis Settings --></label>
+            <section>Static Code Analysis Settings</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>オートメーション名</nameFieldLabel>
+</CustomObjectTranslation>

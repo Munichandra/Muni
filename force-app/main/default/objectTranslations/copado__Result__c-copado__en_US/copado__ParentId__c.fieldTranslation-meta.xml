@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 15-digit ID of the record that triggered the process that generated the result. (e.g. A Job Step) We use a text field because Salesforce only allows one type in lookup fields. --></help>
+    <label><!-- Context ID --></label>
+    <name>copado__ParentId__c</name>
+</CustomFieldTranslation>
