@@ -1,0 +1,158 @@
+stages:
+    - validate
+    - test
+    - deploy
+    - postDeploy
+
+image: registry.gitlab.com/syngenta-latam/ecomm:latest
+
+MR Build Validation IST:
+    rules:
+        - if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "release/IST"
+    stage: validate
+    tags:
+        - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+    script:
+        - echo "MR build validation" 
+
+        - echo "fetching source and target branches from repo"
+        - ScriptforMR
+
+MR Build Validation UAT:
+    rules:
+        - if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "release/UAT"
+    stage: validate
+    tags:
+        - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+    script:
+        - echo "MR build validation" 
+
+        - echo "fetching source and target branches from repo"
+        - ScriptforMR
+
+
+MR Build Validation Production:
+    rules:
+        - if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "master"
+    stage: validate
+    tags:
+        - $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+    script:
+        - echo "MR build validation" 
+
+        - echo "fetching source and target branches from repo"        
+        - ScriptforMR
+
+
+Branch Build Validation for IST:
+    only:
+        - release/IST
+    stage: test
+    tags:
+        - release/IST
+    script:
+        - echo "build validation"
+        - runsgdpackageforcommits
+        - sfdx force:source:deploy --checkonly -p "srcDiff/force-app" -u aliasuser
+        #- sfdx force:source:deploy --checkonly -p srcDiff/force-app -u devgsa  
+    
+Branch Build Validation UAT:
+    only:
+        - release/UAT
+    stage: test
+    tags:
+        - release/UAT
+    script:
+        - echo "build validation"
+        - runsgdpackageforcommits
+        - sfdx force:source:deploy --checkonly -p "srcDiff/force-app" -u aliasuser
+        #- sfdx force:source:deploy --checkonly -p srcDiff/force-app -u devgsa  
+
+Branch Build Validation:
+    only:
+        - master
+    stage: test
+    tags:
+        - master
+    script:
+        - echo "build validation"
+        - runsgdpackageforcommits
+        - sfdx force:source:deploy --checkonly -p "srcDiff/force-app" --testlevel=RunLocalTests -u aliasuser
+        #- sfdx force:source:deploy --checkonly -p srcDiff/force-app -u devgsa  
+
+Branch Deployment IST:
+    only:
+        - release/IST
+    stage: deploy
+    tags:
+        - release/IST
+    script:
+        - echo "build deployement"
+        - runsgdpackageforcommits
+        - sfdx force:source:deploy -p "srcDiff/force-app" -u aliasuser
+        #- sfdx force:source:deploy --checkonly -p srcDiff/force-app -u devgsa  
+    
+Branch Deployment UAT:
+    only:
+        - release/UAT
+    stage: deploy
+    tags:
+        - release/UAT
+    script:
+        - echo "build deployement"
+        - runsgdpackageforcommits
+        - sfdx force:source:deploy -p "srcDiff/force-app" -u aliasuser
+        #- sfdx force:source:deploy --checkonly -p srcDiff/force-app -u devgsa  
+
+Branch Deployment:
+    only:
+        - master
+    stage: deploy
+    tags:
+        - master
+    script:
+        - echo "build deployement"
+        - runsgdpackageforcommits
+        - sfdx force:source:deploy -p "srcDiff/force-app" --testlevel=RunLocalTests -u aliasuser
+        #- sfdx force:source:deploy --checkonly -p srcDiff/force-app -u devgsa  
+
+master merge to IST:
+    only:
+        - master
+    stage: postDeploy
+    tags:
+        - release/IST
+    script:
+        - echo "master merge to IST"
+        - git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+        - git fetch origin master
+        - git fetch origin release/IST
+        - git checkout release/IST
+        - git config --global user.email "devopsuser@invalid.com"
+        - git config --global user.name "devopsuser"
+        - git merge --no-ff --no-commit origin/master
+        - git reset HEAD .gitlab-ci.yml
+        - git checkout -- .gitlab-ci.yml
+        - git commit -m "Merge from master to IST"
+        - git push https://${USER_TO_MERGE}:${CI_PERSONAL_TOKEN}@gitlab.com/syngenta-latam/ecomm.git release/IST
+    allow_failure: true
+
+master merge to UAT:
+    only:
+        - master
+    stage: postDeploy
+    tags:
+        - release/UAT
+    script:
+        - echo "build master merge to UAT"
+        - git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
+        - git fetch origin master
+        - git fetch origin release/UAT
+        - git checkout release/UAT
+        - git config --global user.email "devopsuser@invalid.com"
+        - git config --global user.name "devopsuser"
+        - git merge --no-ff --no-commit origin/master
+        - git reset HEAD .gitlab-ci.yml
+        - git checkout -- .gitlab-ci.yml
+        - git commit -m "Merge from master to UAT"
+        - git push https://${USER_TO_MERGE}:${CI_PERSONAL_TOKEN}@gitlab.com/syngenta-latam/ecomm.git release/UAT
